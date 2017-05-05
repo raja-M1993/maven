@@ -3,7 +3,7 @@
 
   <groupId>org.prgm</groupId>
   <artifactId>firstprgm</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <packaging>jar</packaging>
 
   <name>firstprgm</name>
@@ -15,7 +15,8 @@
   <scm>
      <connection>scm:git:https://github.com/raja-M1993/maven.git</connection>
      <url>scm:git:https://github.com/raja-M1993/maven.git</url>
-    <tag>MR1-0.0.8</tag>
+     <developerConnection>scm:git:https://github.com/raja-M1993/maven.git</developerConnection>
+    <tag>firstprgm-0.0.3</tag>
   </scm>
   
   <distributionManagement>
@@ -37,7 +38,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <profiles>
+   <profile>
+     <id>releases</id> 
   <build>
+
   <plugins>
    <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -56,7 +61,8 @@
 <autoVersionSubmodules>true</autoVersionSubmodules>
 <releaseProfiles>release</releaseProfiles> 
 </configuration>
-</plugin> 
+</plugin>
+
     <plugin>
       <groupId>org.sonatype.plugins</groupId>
       <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -69,4 +75,6 @@
     </plugin>
 </plugins>
 </build>
+</profile>
+</profiles>
 </project>
