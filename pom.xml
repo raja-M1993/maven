@@ -3,7 +3,7 @@
 
   <groupId>org.prgm</groupId>
   <artifactId>firstprgm</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.3</version>
   <packaging>jar</packaging>
 
   <name>firstprgm</name>
@@ -24,10 +24,10 @@
     <id>nexus</id>
     <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
-    <!-- <repository>
+<repository>
            <id>MavenRelease</id>
         <url>https://https://github.com/raja-M1993/maven.git</url>
-     </repository>-->
+     </repository>
      </distributionManagement> 
 
   <dependencies>
