@@ -3,7 +3,7 @@
 
   <groupId>org.prgm</groupId>
   <artifactId>firstprgm</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>firstprgm</name>
