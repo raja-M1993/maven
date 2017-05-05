@@ -15,8 +15,7 @@
   <scm>
      <connection>scm:git:https://github.com/raja-M1993/maven.git</connection>
      <url>scm:git:https://github.com/raja-M1993/maven.git</url>
-     <developerConnection>scm:git:https://github.com/raja-M1993/maven.git</developerConnection>
-    <tag>firstprgm-0.0.3</tag>
+     <tag>firstprgm-0.0.3</tag>
   </scm>
   
   <distributionManagement>
@@ -26,7 +25,7 @@
     </snapshotRepository>
 <repository>
            <id>MavenRelease</id>
-        <url>https://https://github.com/raja-M1993/maven.git</url>
+        <url>https://github.com/raja-M1993/maven.git</url>
      </repository>
      </distributionManagement> 
 
